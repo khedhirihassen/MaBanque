@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+	xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+	layout:decorate="~{template1}">
+<head>
+<meta charset="utf-8" />
+<title>Votre Banque</title>
+
+<link rel="stylesheet" type="text/css"
+	href="../static/css/bootstrap.min.css"
+	th:href="@{css/bootstrap.min.css}" />
+
+</head>
+<body>
+	<div layout:fragment="content">
+		<br></br>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+					<div class="card">
+						<div class="card-header">Confirmation</div>
+						<div class="card-body">
+							<h3 class="red">Vous n'êtes pas autoriser à acceder à cette
+								resource</h3>
+						</div>
+					</div>
+
+				</div>
+			</div>
+
+
+		</div>
+	</div>
+</body>
+</html>
